@@ -53,7 +53,7 @@ cd car-price-prediction-app
 3. Make sure you have the `CAR DETAILS.csv` file in the project directory.
    
 4. Create a virtual environment (optional but recommended) and activate it:
-5. ```bash
+ ```bash
    python -m venv venv
    
 For Windows:venv\Scripts\activate
