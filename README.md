@@ -4,8 +4,9 @@ This repository contains code to build a web application that predicts the selli
 The model is trained using the Random Forest Regressor algorithm on the car dataset.
 ## features
 Predict the price of a car based on its features.
+```bash
 Explore the dataset and visualize the data.
-
+```
 ## Dataset
 
 The dataset used for training the model is available in the file `CAR DETAILS.csv`. 
@@ -44,22 +45,23 @@ pip install pandas numpy scikit-learn streamlit
 ```bash
 git clone https://github.com/avanishah111/Datascience_capstone_project.git
 ```
-
 2. Navigate to the project directory.
 
 ```bash
 cd car-price-prediction-app
 ```
-
 3. Make sure you have the `CAR DETAILS.csv` file in the project directory.
-4. Create a virtual environment (optional but recommended) and activate it:python -m venv venv
-
+   ```bash
+4. Create a virtual environment (optional but recommended) and activate it: python -m venv venv
+```
 For Windows:venv\Scripts\activate
+```bash
 For Unix or Linux:source venv/bin/activate
+```
 5. Install the required dependencies: pip install -r requirements.txt
-
+ ```bash   
 6.Run the Streamlit app: streamlit run app.py
-
+```
 7. Run the Streamlit app.
 
 ```bash
@@ -70,11 +72,12 @@ streamlit run app.py
 ## Model Information
 
 The machine learning model used in this app is based on the Random Forest Regressor algorithm.
+``` bash
 The dataset is preprocessed using one-hot encoding for categorical features, and the model is trained on the training set.
-
+```
 The accuracy of the model is evaluated on both the training and testing datasets.
 
-## Contact OR feedback
+## Contact Or feedback
 
 If you have any questions or feedback, feel free to reach out to the project contributors.
 Contribution
