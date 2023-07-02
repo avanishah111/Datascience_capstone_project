@@ -76,6 +76,3 @@ If you have any questions or feedback, feel free to reach out to the project con
 
 ---
 
-Replace `your-username` in the GitHub repository URL with your actual GitHub username. Also, make sure to update the dataset source URL with the actual source of the car dataset.
-
-Save the above text in a file named `README.md` and place it in the root directory of your project. When you push the project to a new GitHub repository, this readme file will be displayed on the repository page and provide all the necessary information about your project and how to run the Streamlit app.
