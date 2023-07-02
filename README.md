@@ -40,7 +40,7 @@ pip install pandas numpy scikit-learn streamlit
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/avanishah111/car-price-prediction-app.git
+git clone https://github.com/avanishah111/Datascience_capstone_project.git
 ```
 
 2. Navigate to the project directory.
