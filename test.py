@@ -21,10 +21,17 @@ def main():
     # Set the title and description
     st.title('Car Price Prediction')
     st.write('Enter the details of the car to predict its price.')
+       st.set_page_config(
+        layout="wide",
+        page_title="Car Price Prediction",
+        page_icon="🚗",
+        initial_sidebar_state="expanded",
+        background_color="#f0f0f0"  # Replace with your desired color
+    )
 
     # Get user inputs
-    company = st.selectbox('Company Name', sorted(df['company'].unique()))
-    name = st.selectbox('Car Name', sorted(df['name'].unique()))
+    company = st.selectbox('Company Name', sorted(df[company].unique())))
+    name = st.selectbox('Car Name',filter_cars_by_company(company,df))
     year = st.number_input('Year', min_value=1900, max_value=2023, step=1)
     km_driven = st.number_input('Kilometers Driven', step=1000)
     fuel = st.selectbox('Fuel Type', df['fuel'].unique())
