@@ -21,18 +21,7 @@ def main():
     # Set the title and description
     st.title('Car Price Prediction')
     st.write('Enter the details of the car to predict its price.')
-      # Add background color
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: #f0f0f0;  
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
+    
     # Get user inputs
     company = st.selectbox('Company Name', sorted(df[company].unique()))
     name = st.selectbox('Car Name',filter_cars_by_company(company,df))
