@@ -21,7 +21,7 @@ def main():
     # Set the title and description
     st.title('Car Price Prediction')
     st.write('Enter the details of the car to predict its price.')
-       st.set_page_config(
+    st.set_page_config(
         layout="wide",
         page_title="Car Price Prediction",
         page_icon="🚗",
