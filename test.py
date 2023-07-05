@@ -21,12 +21,16 @@ def main():
     # Set the title and description
     st.title('Car Price Prediction')
     st.write('Enter the details of the car to predict its price.')
-    st.set_page_config(
-        layout="wide",
-        page_title="Car Price Prediction",
-        page_icon="🚗",
-        initial_sidebar_state="expanded",
-        background_color="#f0f0f0"  # Replace with your desired color
+      # Add background color
+    st.markdown(
+        """
+        <style>
+        body {
+            background-color: #f0f0f0;  
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
     )
 
     # Get user inputs
