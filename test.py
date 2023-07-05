@@ -30,7 +30,7 @@ def main():
     )
 
     # Get user inputs
-    company = st.selectbox('Company Name', sorted(df[company].unique())))
+    company = st.selectbox('Company Name', sorted(df[company].unique()))
     name = st.selectbox('Car Name',filter_cars_by_company(company,df))
     year = st.number_input('Year', min_value=1900, max_value=2023, step=1)
     km_driven = st.number_input('Kilometers Driven', step=1000)
