@@ -23,15 +23,15 @@ def main():
     st.write('Enter the details of the car to predict its price.')
     # Add a CSS class to the Streamlit app's root element
     st.markdown(
-     """
-    <style>
-    .stApp {
-        background-color: yellow;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
- )
+        """
+       <style>
+       .stApp {
+          background-color: yellow;
+      }
+      </style>
+      """,
+     unsafe_allow_html=True
+  )
 
 # Print "Hello world" in black text
    st.write(
