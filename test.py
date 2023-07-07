@@ -33,12 +33,6 @@ def main():
      unsafe_allow_html=True
   )
 
-# Print "Hello world" in black text
-    st.write(
-        "<h1 style='color: black;'>Hello world</h1>",
-         unsafe_allow_html=True
-   )
-
     # Get user inputs
     company = st.selectbox('Company Name', sorted(df['company'].unique()))
     name = st.selectbox('Car Name',filter_cars_by_company(company,df))
