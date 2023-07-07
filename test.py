@@ -59,9 +59,13 @@ def main():
         # Perform one-hot encoding on categorical columns
         data_encoded = transformer.transform(data).toarray()
 
-        # Make predictions
+         # Make predictions
         predictions = regressor.predict(data_encoded)
-        st.success(f'Price of the car is {predictions[0]} INR')
+        success_message = f'Price of the car is {predictions[0]} INR'
+
+        # Add color to the success message
+        colored_message = f'<span style="color: green;">{success_message}</span>'
+        st.markdown(colored_message, unsafe_allow_html=True)
 
 # Run the web app
 if __name__ == '__main__':
