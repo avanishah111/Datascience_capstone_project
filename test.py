@@ -26,7 +26,7 @@ def main():
         """
        <style>
        .stApp {
-          background-color: ivory;
+          background-color: lightblue;
       }
       </style>
       """,
@@ -64,7 +64,7 @@ def main():
         success_message = f'Price of the car is {predictions[0]} INR'
 
         # Add color to the success message
-        colored_message = f'<span style="color: black;",font-size: 24px;">{success_message}</span>'
+        colored_message =  f'<span style="color: green; font-size: 24px;">{success_message}</span>'
         st.markdown(colored_message, unsafe_allow_html=True)
 
 # Run the web app
