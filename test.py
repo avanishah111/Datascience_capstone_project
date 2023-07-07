@@ -34,10 +34,10 @@ def main():
   )
 
 # Print "Hello world" in black text
-   st.write(
-    "<h1 style='color: black;'>Hello world</h1>",
-    unsafe_allow_html=True
-)
+    st.write(
+        "<h1 style='color: black;'>Hello world</h1>",
+         unsafe_allow_html=True
+   )
 
     # Get user inputs
     company = st.selectbox('Company Name', sorted(df['company'].unique()))
