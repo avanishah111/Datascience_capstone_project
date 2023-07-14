@@ -26,7 +26,7 @@ It contains the following columns:
 
 To run the Streamlit app, you need to have the following installed on your system:
 
-- Python (version 3.6 or higher)
+- Python
 - pandas
 - numpy
 - scikit-learn
