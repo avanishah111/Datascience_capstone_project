@@ -75,8 +75,6 @@ streamlit run app.py
 ```
 8. The web app will open in your default browser, and you can use it to predict car prices based on the provided features.
 
-   This is my website: https://avani-carprice-prediction-app.streamlit.app/
-
 
 ## Model Information
 
